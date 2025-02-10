@@ -71,8 +71,15 @@ footer {
 .footer-section a {
   color: #4CAF50;
   text-decoration: none;
+  display: block;  /* 각 링크를 한 줄에 표시 */
+  margin-bottom: 5px;
 }
 
 .footer-section a:hover {
   text-decoration: underline;
-}
+  color: #45a049;
+} 
+
+.footer-section p {
+  margin-top: 5px;
+} 
